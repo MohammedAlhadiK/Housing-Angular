@@ -1,0 +1,9 @@
+.card{
+  overflow: hidden;
+
+  }
+
+
+.wrapper:hover img {
+background-color: bisque;
+  }

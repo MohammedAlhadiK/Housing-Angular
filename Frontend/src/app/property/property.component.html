@@ -1,4 +1,13 @@
 <app-nav-bar></app-nav-bar>
 <div class="container">
-<app-card></app-card>
+
+  <div class="row row-cols-1 row-cols-md-2 g-4 m-lg-2 col Card-Container ">
+    <div
+      *ngFor="let property of properties"
+      class="mt-1 "
+      style="width: 32%;margin-left: 5px; "
+    >
+      <app-card [property]="property"></app-card>
+    </div>
+  </div>
 </div>

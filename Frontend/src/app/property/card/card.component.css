@@ -1,0 +1,45 @@
+.card{
+  overflow: hidden;
+  position: relative;
+}
+.card:hover img {
+  transform: scale(1.2, 1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+
+  background-color: darkgray ;
+  opacity: 0.8;
+}
+.card  img {
+  transform: scale(1, 1);
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+
+}
+.btn-icons {
+  position: relative;
+  bottom: -500px;
+  left: auto;
+  right: auto;
+  top: auto;
+  margin-left: 5px;
+  margin-right: auto;
+
+
+
+}
+.card:hover .btn-icons {
+  position: relative;
+  bottom: 0px;
+  left: auto;
+  right: auto;
+  top: auto;
+  margin-left: 5px;
+  margin-right: auto;
+
+}
+
+.animate {
+  transition: all  0.7s ease-in-out;
+}
+
