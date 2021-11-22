@@ -18,28 +18,29 @@
 }
 .btn-icons {
   position: relative;
-  bottom: -500px;
+  bottom: -50px;
   left: auto;
   right: auto;
   top: auto;
   margin-left: 5px;
   margin-right: auto;
-
+visibility: hidden;
 
 
 }
 .card:hover .btn-icons {
   position: relative;
-  bottom: 0px;
+  bottom: 20px;
   left: auto;
   right: auto;
   top: auto;
   margin-left: 5px;
   margin-right: auto;
-
+visibility: initial;
 }
 
 .animate {
-  transition: all  0.7s ease-in-out;
+  transition: all  0.5s ease-in-out;
+
 }
 
